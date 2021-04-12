@@ -1,5 +1,5 @@
 {
-    "name": "games.cheetah.unity.play-games.runtime",
+    "name": "games.cheetah.unity.play-games",
     "rootNamespace": "GooglePlayGames",
     "references": [],
     "includePlatforms": [

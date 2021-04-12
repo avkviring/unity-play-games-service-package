@@ -4,7 +4,7 @@ using UnityEditor;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-namespace Cheetah.Android.PlayGames
+namespace Cheetah.Android.Editor
 {
     public class GooglePlayGamesSettings
     {
@@ -12,7 +12,7 @@ namespace Cheetah.Android.PlayGames
         public string AppId = "";
 
 
-        internal static GooglePlayGamesSettings GetOrCreateSettings()
+        public static GooglePlayGamesSettings GetOrCreateSettings()
         {
             try
             {
@@ -54,7 +54,6 @@ namespace Cheetah.Android.PlayGames
 
         public override void OnGUI(string searchContext)
         {
-
             var rect = new Rect(10, 10, 300, 40);
             GUILayout.BeginArea(rect);
             settings.AppId = EditorGUILayout.TextField("Android APP_ID", settings.AppId);

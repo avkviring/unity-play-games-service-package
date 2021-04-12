@@ -4,7 +4,7 @@ using System.Text;
 using System.Xml;
 using UnityEditor.Android;
 
-namespace Cheetah.Android.PlayGames
+namespace Cheetah.Android.Editor
 {
     public class GooglePlayGamesBuild : IPostGenerateGradleAndroidProject
     {
