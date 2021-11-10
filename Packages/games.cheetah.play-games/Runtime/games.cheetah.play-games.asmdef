@@ -1,9 +1,9 @@
 {
-    "name": "games.cheetah.unity.play-games.editor",
+    "name": "games.cheetah.play-games",
     "rootNamespace": "GooglePlayGames",
     "references": [],
     "includePlatforms": [
-        "Editor"
+      
     ],
     "excludePlatforms": [],
     "allowUnsafeCode": true,
@@ -13,5 +13,6 @@
     ],
     "autoReferenced": true,
     "defineConstraints": [],
-    "versionDefines": []
+    "versionDefines": [],
+    "noEngineReferences": false
 }

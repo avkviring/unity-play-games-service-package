@@ -13,7 +13,8 @@ jobs:
       with:
         node-version: '12.x'
         registry-url: 'https://npm.registry.cheetah.games'   
-    - run: sed -i.bak 's/999.999.999/${{ github.event.release.tag_name }}/' Packages/games.cheetah.unity.play-games/package.json
-    - run: npm publish Packages/games.cheetah.unity.play-games --access public
+    - run: sed -i.bak 's/999.999.999/${{ github.event.release.tag_name }}/' Packages/games.cheetah.play-games/package.json
+    - run: rm -f Unity/Packages/games.cheetah.play-games/package.json.bak
+    - run: npm publish Packages/games.cheetah.play-games --access public
       env:
         NODE_AUTH_TOKEN: ${{ secrets.TOKEN_REPOSITORY_CHEETAH_GAMES}}

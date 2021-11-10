@@ -1,7 +1,7 @@
 {
-  "name": "games.cheetah.unity.play-games",
+  "name": "games.cheetah.play-games",
   "version": "999.999.999",
-  "displayName": "Cheetah Android Play Games",
+  "displayName": "games.cheetah.play-games",
   "description": "Repacked library for Google Android Play Games",
   "unity": "2019.1",
   "unityRelease": "0b5",
